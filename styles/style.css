@@ -1,0 +1,37 @@
+/* Reset formatting */
+
+* {                 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Container 1 */
+
+.container1 {
+    display: flex;
+    background-color: lightgray;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.box {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    border: solid 2px dodgerblue;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    gap: 20px;
+}
